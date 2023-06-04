@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8088:8088
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/news_db_v0
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=06erenalp123
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=news_db_v0
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=06erenalp123
