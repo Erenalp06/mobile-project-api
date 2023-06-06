@@ -22,7 +22,7 @@ Versiyon: 1.0 (/api/v1/news/**)
 
 ## Örnek
 
-### Haberleri kategoriye göre çekmek için istek atıyoruz.
+#### Haberleri kategoriye göre çekmek için istek atıyoruz.
 
 - http://192.168.56.1:8088/api/v1/news/game (GET)
 
