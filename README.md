@@ -19,6 +19,7 @@ Versiyon: 1.0 (/api/v1/news/**)
 
 http://192.168.56.1:8088/api/v1/news/game (GET)
 ***********************************************
+```
 {
 "id": 2165,
 "sourceId": "wired",
@@ -31,6 +32,7 @@ http://192.168.56.1:8088/api/v1/news/game (GET)
 "publishedAt": "2023-05-06T11:00:00Z",
 "content": "EAs assistance was crucial, not only in offering suggestions but also in helping to refine occasionally troublesome settings. Edagawa notes that the development of specific features and designs, even… [+3367 chars]"
 }
+```
 ***********************************************
 
 FAVOURITES-APP API
@@ -52,6 +54,7 @@ Versiyon: 1.0 (/api/v1/favorites/**)
 
 http://192.168.56.1:6767/api/v1/favorites/erenalp@gmail.com (GET)
 ***********************************************
+```
 {
 "id": 1,
 "sourceId": "bbc-news",
@@ -76,11 +79,13 @@ http://192.168.56.1:6767/api/v1/favorites/erenalp@gmail.com (GET)
 "publishedAt": "2023-05-26T19:08:10Z",
 "content": "Image: Sony\r\n\n \n\n Naughty Dog’s got a new single-player game in the works.\nThe Uncharted developer was expected to show off its The Last Of Us multiplayer project at this week’s PlayStation showcase.… [+947 chars]"
 }
+```
 ***********************************************
 
 http://192.168.56.1:6767/api/v1/favorites (POST)
 ***********************************************
 BODY:
+```
 {
     "id": 5,
     "email": "erenalp@gmail.com",
@@ -94,8 +99,10 @@ BODY:
     "imageUrl": "https://example.com/image5.jpg",
     "publishedAt": "2023-06-05T16:30:45Z"
   }
+  ```
 ***********************************************  
  RESPONSE:
+ ```
  {
     "id": 5,
     "email": "erenalp@gmail.com",
@@ -109,6 +116,7 @@ BODY:
     "imageUrl": "https://example.com/image5.jpg",
     "publishedAt": "2023-06-05T16:30:45Z"
 }
+```
 ***********************************************
 
 
