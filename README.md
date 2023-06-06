@@ -6,11 +6,11 @@ New- app API &amp; Favourites-app API
 
 ## News-app-API ##
 
-##Giriş: Bu API, ihtiyaç duyulduğunda üçüncü taraf API hizmetleriyle iletişim kurabilen ve istenilen verileri alabilen veya mevcut veriyi getirebilen bir ara yüz sağlar. Haber kaynaklarına bağlanarak güncel haberleri, makaleleri, başlıkları, metin içeriklerini, resimleri, videoları ve diğer ilgili bilgileri alabilme imkanı sunar. Bu API belgesinde, bu işlevselliğin kullanımını ayrıntılı bir şekilde açıklayacağız.
+## Giriş: Bu API, ihtiyaç duyulduğunda üçüncü taraf API hizmetleriyle iletişim kurabilen ve istenilen verileri alabilen veya mevcut veriyi getirebilen bir ara yüz sağlar. Haber kaynaklarına bağlanarak güncel haberleri, makaleleri, başlıkları, metin içeriklerini, resimleri, videoları ve diğer ilgili bilgileri alabilme imkanı sunar. Bu API belgesinde, bu işlevselliğin kullanımını ayrıntılı bir şekilde açıklayacağız.
 
-##API Kaynakları
+## API Kaynakları
 
-###Haberler
+### Haberler
 
 Haber kaynakları, üçüntü bir taraftan veri çekmeye ve olan veriyi okumayı sağlar.
 
@@ -40,11 +40,11 @@ http://192.168.56.1:8088/api/v1/news/game (GET)
 
 ## Favourites-app-API ##
 
-##Giriş: Bu API, kullanıcıların istedikleri haberleri favorilerine eklemelerine ve yönetmelerine olanak sağlayan bir hizmet sunmak üzere tasarlanmıştır. Favoriler API'si olarak da adlandırılan bu arayüz, kullanıcıların tercih ettikleri haberleri kolaylıkla erişilebilir bir şekilde saklamalarını ve organize etmelerini sağlar.
+## Giriş: Bu API, kullanıcıların istedikleri haberleri favorilerine eklemelerine ve yönetmelerine olanak sağlayan bir hizmet sunmak üzere tasarlanmıştır. Favoriler API'si olarak da adlandırılan bu arayüz, kullanıcıların tercih ettikleri haberleri kolaylıkla erişilebilir bir şekilde saklamalarını ve organize etmelerini sağlar.
 
-##API Kaynakları
+## API Kaynakları
 
-###Favoriler
+### Favoriler
 
 Favori Kaynakları, favoriler oluşturmayı ve bu favorileri liste halinde döndürmeyi sağlar.
 
