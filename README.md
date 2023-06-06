@@ -22,7 +22,7 @@ Versiyon: 1.0 (/api/v1/news/**)
 
 http://192.168.56.1:8088/api/v1/news/game (GET)
 
-```
+```json
 {
     "id": 2165,
     "sourceId": "wired",
@@ -57,7 +57,7 @@ Versiyon: 1.0 (/api/v1/favorites/**)
 
 http://192.168.56.1:6767/api/v1/favorites/erenalp@gmail.com (GET)
 
-```
+```json
 {
     "id": 1,
     "sourceId": "bbc-news",
@@ -90,19 +90,19 @@ http://192.168.56.1:6767/api/v1/favorites/erenalp@gmail.com (GET)
 http://192.168.56.1:6767/api/v1/favorites (POST)
 
 BODY:
-```
+```json
 {
-    "id": 5,
-    "email": "erenalp@gmail.com",
-    "title": "Title 5",
-    "content": "Content 5",
-    "sourceId": "source-id-5",
-    "sourceName": "Source Name 5",
-    "author": "Author 5",
-    "description": "Description 5",
-    "url": "https://example.com/news5",
-    "imageUrl": "https://example.com/image5.jpg",
-    "publishedAt": "2023-06-05T16:30:45Z"
+        "id": 5,
+        "email": "erenalp@gmail.com",
+        "title": "Title 5",
+        "content": "Content 5",
+        "sourceId": "source-id-5",
+        "sourceName": "Source Name 5",
+        "author": "Author 5",
+        "description": "Description 5",
+        "url": "https://example.com/news5",
+        "imageUrl": "https://example.com/image5.jpg",
+        "publishedAt": "2023-06-05T16:30:45Z"
   }
   ```
 
@@ -110,17 +110,17 @@ BODY:
  
  ```json
 {
-  "id": 5,
-  "email": "erenalp@gmail.com",
-  "title": "Title 5",
-  "content": "Content 5",
-  "sourceId": "source-id-5",
-  "sourceName": "Source Name 5",
-  "author": "Author 5",
-  "description": "Description 5",
-  "url": "https://example.com/news5",
-  "imageUrl": "https://example.com/image5.jpg",
-  "publishedAt": "2023-06-05T16:30:45Z"
+      "id": 5,
+      "email": "erenalp@gmail.com",
+      "title": "Title 5",
+      "content": "Content 5",
+      "sourceId": "source-id-5",
+      "sourceName": "Source Name 5",
+      "author": "Author 5",
+      "description": "Description 5",
+      "url": "https://example.com/news5",
+      "imageUrl": "https://example.com/image5.jpg",
+      "publishedAt": "2023-06-05T16:30:45Z"
 }
 
 
