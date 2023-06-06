@@ -18,9 +18,9 @@ Versiyon: 1.0 (/api/v1/news/**)
 
 - 'GET /fetch/{categoryName}' - Kategori ismine göre haber listesi döndürür. Eğer halihazırda veri varsa onu kullanır, herhangi bir veri yoksa da NEWS API hizmetinden veri çeker.
 
-Örnek
+## Örnek
 
-## Haberleri kategoriye göre çekmek için istek atıyoruz.
+### Haberleri kategoriye göre çekmek için istek atıyoruz.
 
 - http://192.168.56.1:8088/api/v1/news/game (GET)
 
@@ -57,9 +57,9 @@ Versiyon: 1.0 (/api/v1/favorites/**)
 - 'GET /email' - Email bilgisini kullanarak kullanıcıya ait favorileri liste şeklinde döndürür.
 - 'POST' - Kullanıcın email ve gönderdiği haber bilgisini kullanarak favori oluşturmayı sağlar. Favori oluşturma işlemi sırasında aynı haberin zaten kullanıcı tarafından eklenip eklenmediğini kontrol eder ve kullanıcıya geri bildirim sağlar.
 
-Örnek
+## Örnek
 
-## Kullanıcıya göre favor haberleri getirmek için istek atıyoruz.
+### Kullanıcıya göre favor haberleri getirmek için istek atıyoruz.
 
 - http://192.168.56.1:6767/api/v1/favorites/erenalp@gmail.com (GET)
 
@@ -91,7 +91,7 @@ Versiyon: 1.0 (/api/v1/favorites/**)
     
 }
 ```
-## Kullanıcının favorilerine haber eklemek için istek atıyoruz
+### Kullanıcının favorilerine haber eklemek için istek atıyoruz
 
 - http://192.168.56.1:6767/api/v1/favorites (POST)
 
