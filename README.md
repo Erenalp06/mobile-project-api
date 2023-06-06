@@ -63,7 +63,7 @@ Versiyon: 1.0 (/api/v1/favorites/**)
 
 ## Örnek
 
-### Kullanıcıya göre favor haberleri getirmek için istek atıyoruz.
+#### Kullanıcıya göre favor haberleri getirmek için istek atıyoruz.
 
 - http://192.168.56.1:6767/api/v1/favorites/erenalp@gmail.com (GET)
 
@@ -95,7 +95,7 @@ Versiyon: 1.0 (/api/v1/favorites/**)
     
 }
 ```
-### Kullanıcının favorilerine haber eklemek için istek atıyoruz
+#### Kullanıcının favorilerine haber eklemek için istek atıyoruz
 
 - http://192.168.56.1:6767/api/v1/favorites (POST)
 
