@@ -50,8 +50,8 @@ Favori Kaynakları, favoriler oluşturmayı ve bu favorileri liste halinde dönd
 
 Versiyon: 1.0 (/api/v1/favorites/**)
 
-'GET /email' - Email bilgisini kullanarak kullanıcıya ait favorileri liste şeklinde döndürür.
-'POST' - Kullanıcın email ve gönderdiği haber bilgisini kullanarak favori oluşturmayı sağlar. Favori oluşturma işlemi sırasında aynı haberin zaten kullanıcı tarafından eklenip eklenmediğini kontrol eder ve kullanıcıya geri bildirim sağlar.
+- 'GET /email' - Email bilgisini kullanarak kullanıcıya ait favorileri liste şeklinde döndürür.
+- 'POST' - Kullanıcın email ve gönderdiği haber bilgisini kullanarak favori oluşturmayı sağlar. Favori oluşturma işlemi sırasında aynı haberin zaten kullanıcı tarafından eklenip eklenmediğini kontrol eder ve kullanıcıya geri bildirim sağlar.
 
 Örnek
 
