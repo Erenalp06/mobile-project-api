@@ -21,7 +21,7 @@ Versiyon: 1.0 (/api/v1/news/**)
 Örnek
 
 http://192.168.56.1:8088/api/v1/news/game (GET)
-***********************************************
+
 ```
 {
     "id": 2165,
@@ -36,7 +36,7 @@ http://192.168.56.1:8088/api/v1/news/game (GET)
     "content": "EAs assistance was crucial, not only in offering suggestions but also in helping to refine occasionally troublesome settings. Edagawa notes that the development of specific features and designs, even… [+3367 chars]"
 }
 ```
-***********************************************
+
 
 ## Favourites-app-API ##
 
@@ -56,7 +56,7 @@ Versiyon: 1.0 (/api/v1/favorites/**)
 Örnek
 
 http://192.168.56.1:6767/api/v1/favorites/erenalp@gmail.com (GET)
-***********************************************
+
 ```
 {
     "id": 1,
@@ -85,10 +85,10 @@ http://192.168.56.1:6767/api/v1/favorites/erenalp@gmail.com (GET)
     
 }
 ```
-***********************************************
+
 
 http://192.168.56.1:6767/api/v1/favorites (POST)
-***********************************************
+
 BODY:
 ```
 {
@@ -105,24 +105,24 @@ BODY:
     "publishedAt": "2023-06-05T16:30:45Z"
   }
   ```
-***********************************************  
+
  RESPONSE:
- ```
- {
-    "id": 5,
-    "email": "erenalp@gmail.com",
-    "title": "Title 5",
-    "content": "Content 5",
-    "sourceId": "source-id-5",
-    "sourceName": "Source Name 5",
-    "author": "Author 5",
-    "description": "Description 5",
-    "url": "https://example.com/news5",
-    "imageUrl": "https://example.com/image5.jpg",
-    "publishedAt": "2023-06-05T16:30:45Z"
+ 
+ ```json
+{
+  "id": 5,
+  "email": "erenalp@gmail.com",
+  "title": "Title 5",
+  "content": "Content 5",
+  "sourceId": "source-id-5",
+  "sourceName": "Source Name 5",
+  "author": "Author 5",
+  "description": "Description 5",
+  "url": "https://example.com/news5",
+  "imageUrl": "https://example.com/image5.jpg",
+  "publishedAt": "2023-06-05T16:30:45Z"
 }
-```
-***********************************************
+
 
 
 
